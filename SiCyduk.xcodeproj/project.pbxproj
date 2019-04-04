@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A20721B1F86B25400679E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20721A1F86B25400679E30 /* AppDelegate.swift */; };
+		3A20721D1F86B25400679E30 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20721C1F86B25400679E30 /* FirstViewController.swift */; };
+		3A20721F1F86B25400679E30 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20721E1F86B25400679E30 /* SecondViewController.swift */; };
+		3A2072221F86B25400679E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2072201F86B25400679E30 /* Main.storyboard */; };
+		3A2072241F86B25400679E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2072231F86B25400679E30 /* Assets.xcassets */; };
+		3A2072271F86B25400679E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2072251F86B25400679E30 /* LaunchScreen.storyboard */; };
+		3A2072321F86B25400679E30 /* SiCydukTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2072311F86B25400679E30 /* SiCydukTests.swift */; };
+		3A20723D1F86B25400679E30 /* SiCydukUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A20723C1F86B25400679E30 /* SiCydukUITests.swift */; };
+		3A2F38A11F8BAD3500608E16 /* listAnak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F38A01F8BAD3500608E16 /* listAnak.swift */; };
+		3A2F38A31F8BAF3600608E16 /* SecondViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F38A21F8BAF3600608E16 /* SecondViewControllerTableViewCell.swift */; };
+		3A99EE721F86DE200073CB33 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99EE711F86DE200073CB33 /* LoginViewController.swift */; };
+		3A99EE741F86DF200073CB33 /* myApiKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A99EE731F86DF200073CB33 /* myApiKey.swift */; };
+		70EF6B6A349444E6EC6D6BA5 /* Pods_SiCydukTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE50D73414D8FAA330FFA99 /* Pods_SiCydukTests.framework */; };
+		99B423C124BD6DBF0A338D33 /* Pods_SiCyduk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5A1DD27EDE118B456A7F90 /* Pods_SiCyduk.framework */; };
+		D48FF59773CD9E6EA6F5E1A9 /* Pods_SiCydukUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E06853124E7178D5BD4532 /* Pods_SiCydukUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A20722E1F86B25400679E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A20720F1F86B25400679E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2072161F86B25400679E30;
+			remoteInfo = SiCyduk;
+		};
+		3A2072391F86B25400679E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A20720F1F86B25400679E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2072161F86B25400679E30;
+			remoteInfo = SiCyduk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5A1DD27EDE118B456A7F90 /* Pods_SiCyduk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiCyduk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2072171F86B25400679E30 /* SiCyduk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiCyduk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A20721A1F86B25400679E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A20721C1F86B25400679E30 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3A20721E1F86B25400679E30 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3A2072211F86B25400679E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2072231F86B25400679E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2072261F86B25400679E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2072281F86B25400679E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A20722D1F86B25400679E30 /* SiCydukTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiCydukTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2072311F86B25400679E30 /* SiCydukTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiCydukTests.swift; sourceTree = "<group>"; };
+		3A2072331F86B25400679E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2072381F86B25400679E30 /* SiCydukUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiCydukUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A20723C1F86B25400679E30 /* SiCydukUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiCydukUITests.swift; sourceTree = "<group>"; };
+		3A20723E1F86B25400679E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2F38A01F8BAD3500608E16 /* listAnak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listAnak.swift; sourceTree = "<group>"; };
+		3A2F38A21F8BAF3600608E16 /* SecondViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		3A99EE711F86DE200073CB33 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A99EE731F86DF200073CB33 /* myApiKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myApiKey.swift; sourceTree = "<group>"; };
+		5CE50D73414D8FAA330FFA99 /* Pods_SiCydukTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiCydukTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C1B9265B16BD9D0026F9C4 /* Pods-SiCyduk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCyduk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiCyduk/Pods-SiCyduk.release.xcconfig"; sourceTree = "<group>"; };
+		8D37CE521ACCF2894CB32F39 /* Pods-SiCydukUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCydukUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiCydukUITests/Pods-SiCydukUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F31B0B805715BC2A91C8E5E /* Pods-SiCydukUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCydukUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiCydukUITests/Pods-SiCydukUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC377E6998DD180DD9CE2DD /* Pods-SiCyduk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCyduk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiCyduk/Pods-SiCyduk.debug.xcconfig"; sourceTree = "<group>"; };
+		E8E06853124E7178D5BD4532 /* Pods_SiCydukUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiCydukUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6BA2A6772D9B7E7ECA79B0 /* Pods-SiCydukTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCydukTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SiCydukTests/Pods-SiCydukTests.release.xcconfig"; sourceTree = "<group>"; };
+		F73BCC04E720372BA5E361EF /* Pods-SiCydukTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiCydukTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SiCydukTests/Pods-SiCydukTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2072141F86B25400679E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B423C124BD6DBF0A338D33 /* Pods_SiCyduk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A20722A1F86B25400679E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70EF6B6A349444E6EC6D6BA5 /* Pods_SiCydukTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2072351F86B25400679E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48FF59773CD9E6EA6F5E1A9 /* Pods_SiCydukUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A20720E1F86B25400679E30 = {
+			isa = PBXGroup;
+			children = (
+				3A2072191F86B25400679E30 /* SiCyduk */,
+				3A2072301F86B25400679E30 /* SiCydukTests */,
+				3A20723B1F86B25400679E30 /* SiCydukUITests */,
+				3A2072181F86B25400679E30 /* Products */,
+				9E4CB8DDDB8AFFABEAA4BCE0 /* Pods */,
+				B6D07D53C703F24076286453 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2072181F86B25400679E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2072171F86B25400679E30 /* SiCyduk.app */,
+				3A20722D1F86B25400679E30 /* SiCydukTests.xctest */,
+				3A2072381F86B25400679E30 /* SiCydukUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2072191F86B25400679E30 /* SiCyduk */ = {
+			isa = PBXGroup;
+			children = (
+				3A20721A1F86B25400679E30 /* AppDelegate.swift */,
+				3A20721C1F86B25400679E30 /* FirstViewController.swift */,
+				3A20721E1F86B25400679E30 /* SecondViewController.swift */,
+				3A99EE711F86DE200073CB33 /* LoginViewController.swift */,
+				3A2072201F86B25400679E30 /* Main.storyboard */,
+				3A2F38A21F8BAF3600608E16 /* SecondViewControllerTableViewCell.swift */,
+				3A2F38A01F8BAD3500608E16 /* listAnak.swift */,
+				3A2072231F86B25400679E30 /* Assets.xcassets */,
+				3A2072251F86B25400679E30 /* LaunchScreen.storyboard */,
+				3A99EE731F86DF200073CB33 /* myApiKey.swift */,
+				3A2072281F86B25400679E30 /* Info.plist */,
+			);
+			path = SiCyduk;
+			sourceTree = "<group>";
+		};
+		3A2072301F86B25400679E30 /* SiCydukTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2072311F86B25400679E30 /* SiCydukTests.swift */,
+				3A2072331F86B25400679E30 /* Info.plist */,
+			);
+			path = SiCydukTests;
+			sourceTree = "<group>";
+		};
+		3A20723B1F86B25400679E30 /* SiCydukUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A20723C1F86B25400679E30 /* SiCydukUITests.swift */,
+				3A20723E1F86B25400679E30 /* Info.plist */,
+			);
+			path = SiCydukUITests;
+			sourceTree = "<group>";
+		};
+		9E4CB8DDDB8AFFABEAA4BCE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAC377E6998DD180DD9CE2DD /* Pods-SiCyduk.debug.xcconfig */,
+				84C1B9265B16BD9D0026F9C4 /* Pods-SiCyduk.release.xcconfig */,
+				F73BCC04E720372BA5E361EF /* Pods-SiCydukTests.debug.xcconfig */,
+				EA6BA2A6772D9B7E7ECA79B0 /* Pods-SiCydukTests.release.xcconfig */,
+				9F31B0B805715BC2A91C8E5E /* Pods-SiCydukUITests.debug.xcconfig */,
+				8D37CE521ACCF2894CB32F39 /* Pods-SiCydukUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6D07D53C703F24076286453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B5A1DD27EDE118B456A7F90 /* Pods_SiCyduk.framework */,
+				5CE50D73414D8FAA330FFA99 /* Pods_SiCydukTests.framework */,
+				E8E06853124E7178D5BD4532 /* Pods_SiCydukUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2072161F86B25400679E30 /* SiCyduk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2072411F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCyduk" */;
+			buildPhases = (
+				94BCBB849F218AE224EEC55E /* [CP] Check Pods Manifest.lock */,
+				3A2072131F86B25400679E30 /* Sources */,
+				3A2072141F86B25400679E30 /* Frameworks */,
+				3A2072151F86B25400679E30 /* Resources */,
+				2FA5E3A7CA161A3113387ED7 /* [CP] Embed Pods Frameworks */,
+				832E4464155249029B085545 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiCyduk;
+			productName = SiCyduk;
+			productReference = 3A2072171F86B25400679E30 /* SiCyduk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A20722C1F86B25400679E30 /* SiCydukTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2072441F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCydukTests" */;
+			buildPhases = (
+				18820EE00439398878722510 /* [CP] Check Pods Manifest.lock */,
+				3A2072291F86B25400679E30 /* Sources */,
+				3A20722A1F86B25400679E30 /* Frameworks */,
+				3A20722B1F86B25400679E30 /* Resources */,
+				2F278B566601727DDD68E030 /* [CP] Embed Pods Frameworks */,
+				A44F69EE9A7121FD3FCEA6B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A20722F1F86B25400679E30 /* PBXTargetDependency */,
+			);
+			name = SiCydukTests;
+			productName = SiCydukTests;
+			productReference = 3A20722D1F86B25400679E30 /* SiCydukTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2072371F86B25400679E30 /* SiCydukUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2072471F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCydukUITests" */;
+			buildPhases = (
+				E1D105214ACAD5F8D60DADAA /* [CP] Check Pods Manifest.lock */,
+				3A2072341F86B25400679E30 /* Sources */,
+				3A2072351F86B25400679E30 /* Frameworks */,
+				3A2072361F86B25400679E30 /* Resources */,
+				FF46A1F3C02A391E65836F97 /* [CP] Embed Pods Frameworks */,
+				10D15B64DC3CE384F1605CAB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A20723A1F86B25400679E30 /* PBXTargetDependency */,
+			);
+			name = SiCydukUITests;
+			productName = SiCydukUITests;
+			productReference = 3A2072381F86B25400679E30 /* SiCydukUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A20720F1F86B25400679E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tc17;
+				TargetAttributes = {
+					3A2072161F86B25400679E30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3A20722C1F86B25400679E30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A2072161F86B25400679E30;
+					};
+					3A2072371F86B25400679E30 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3A2072161F86B25400679E30;
+					};
+				};
+			};
+			buildConfigurationList = 3A2072121F86B25400679E30 /* Build configuration list for PBXProject "SiCyduk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A20720E1F86B25400679E30;
+			productRefGroup = 3A2072181F86B25400679E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2072161F86B25400679E30 /* SiCyduk */,
+				3A20722C1F86B25400679E30 /* SiCydukTests */,
+				3A2072371F86B25400679E30 /* SiCydukUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2072151F86B25400679E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2072271F86B25400679E30 /* LaunchScreen.storyboard in Resources */,
+				3A2072241F86B25400679E30 /* Assets.xcassets in Resources */,
+				3A2072221F86B25400679E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A20722B1F86B25400679E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2072361F86B25400679E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10D15B64DC3CE384F1605CAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCydukUITests/Pods-SiCydukUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18820EE00439398878722510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiCydukTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F278B566601727DDD68E030 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCydukTests/Pods-SiCydukTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA5E3A7CA161A3113387ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SiCyduk/Pods-SiCyduk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCyduk/Pods-SiCyduk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832E4464155249029B085545 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCyduk/Pods-SiCyduk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BCBB849F218AE224EEC55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiCyduk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F69EE9A7121FD3FCEA6B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCydukTests/Pods-SiCydukTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D105214ACAD5F8D60DADAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiCydukUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF46A1F3C02A391E65836F97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SiCydukUITests/Pods-SiCydukUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2072131F86B25400679E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2F38A11F8BAD3500608E16 /* listAnak.swift in Sources */,
+				3A99EE721F86DE200073CB33 /* LoginViewController.swift in Sources */,
+				3A2F38A31F8BAF3600608E16 /* SecondViewControllerTableViewCell.swift in Sources */,
+				3A99EE741F86DF200073CB33 /* myApiKey.swift in Sources */,
+				3A20721F1F86B25400679E30 /* SecondViewController.swift in Sources */,
+				3A20721B1F86B25400679E30 /* AppDelegate.swift in Sources */,
+				3A20721D1F86B25400679E30 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2072291F86B25400679E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2072321F86B25400679E30 /* SiCydukTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2072341F86B25400679E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A20723D1F86B25400679E30 /* SiCydukUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A20722F1F86B25400679E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2072161F86B25400679E30 /* SiCyduk */;
+			targetProxy = 3A20722E1F86B25400679E30 /* PBXContainerItemProxy */;
+		};
+		3A20723A1F86B25400679E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2072161F86B25400679E30 /* SiCyduk */;
+			targetProxy = 3A2072391F86B25400679E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A2072201F86B25400679E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2072211F86B25400679E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2072251F86B25400679E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2072261F86B25400679E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A20723F1F86B25400679E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2072401F86B25400679E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2072421F86B25400679E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC377E6998DD180DD9CE2DD /* Pods-SiCyduk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCyduk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCyduk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3A2072431F86B25400679E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C1B9265B16BD9D0026F9C4 /* Pods-SiCyduk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCyduk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCyduk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3A2072451F86B25400679E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73BCC04E720372BA5E361EF /* Pods-SiCydukTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCydukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCydukTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiCyduk.app/SiCyduk";
+			};
+			name = Debug;
+		};
+		3A2072461F86B25400679E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6BA2A6772D9B7E7ECA79B0 /* Pods-SiCydukTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCydukTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCydukTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiCyduk.app/SiCyduk";
+			};
+			name = Release;
+		};
+		3A2072481F86B25400679E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F31B0B805715BC2A91C8E5E /* Pods-SiCydukUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCydukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCydukUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiCyduk;
+			};
+			name = Debug;
+		};
+		3A2072491F86B25400679E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D37CE521ACCF2894CB32F39 /* Pods-SiCydukUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGAW9RNDGP;
+				INFOPLIST_FILE = SiCydukUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tc17.SiCydukUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiCyduk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2072121F86B25400679E30 /* Build configuration list for PBXProject "SiCyduk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A20723F1F86B25400679E30 /* Debug */,
+				3A2072401F86B25400679E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2072411F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCyduk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2072421F86B25400679E30 /* Debug */,
+				3A2072431F86B25400679E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2072441F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCydukTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2072451F86B25400679E30 /* Debug */,
+				3A2072461F86B25400679E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2072471F86B25400679E30 /* Build configuration list for PBXNativeTarget "SiCydukUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2072481F86B25400679E30 /* Debug */,
+				3A2072491F86B25400679E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A20720F1F86B25400679E30 /* Project object */;
+}
