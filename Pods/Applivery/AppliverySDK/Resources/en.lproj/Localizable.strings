@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  AppliverySDK
+
+  Created by Alejandro Jiménez on 18/1/16.
+  Copyright © 2016 Applivery S.L. All rights reserved.
+*/
+
+
+// GENERAL
+"sdk_name" = "Applivery";
+"alert_button_cancel" = "Cancel";
+"alert_button_retry" = "Retry";
+"alert_button_ok" = "OK";
+
+// ERRORS
+"error_unexpected" = "Unexpected error";
+"error_invalid_credentials" = "Invalid credentials";
+"error_download_url" = "Couldn't start download. Invalid url";
+
+// OTA Update
+"ota_update_message" = "There is a new version available for download. Do you want to update to the latest version?";
+"alert_button_later" = "Later";
+"alert_button_update" = "Update";
+
+// UPDATE VIEW
+"force_update_message" = "Sorry this App is outdated. Please, update the App to continue using it";
+"update_view_button_update" = "Update now";
+
+// FEEDBACK VIEW
+"feedback_button_close" = "Close";
+"feedback_button_add" = "Add Feedback";
+"feedback_button_send" = "Send Feedback";
+"feedback_label_select_type" = "Select type";
+"feedback_button_bug" = "Bug";
+"feedback_button_feedback" = "Feedback";
+"feedback_text_message_placeholder" = "Add a message";
+"feedback_label_attach" = "Attach Screenshot";
